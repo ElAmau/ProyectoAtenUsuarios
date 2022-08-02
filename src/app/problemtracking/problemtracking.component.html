@@ -1,0 +1,27 @@
+<p></p>
+<div class="display-3 fst-italic text-center">
+  <h1 class="larger" style="color: blue">Seguimiento de Problema</h1>
+</div>
+<div class="container">
+  <table class="table table-success table-striped">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">Folio_seg
+        <th>
+        <th scope="col">id_soluprob</th>
+        <th scope="col">Fecha_revision</th>
+        <th scope="col">Status_problema</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of recupera">
+        <td>{{i.Folio_seg}}</td>
+        <td></td>
+
+        <td>{{i.id_soluprob}}</td>
+        <td>{{i.Fecha_revision}}</td>
+        <td>{{i.Status_problema}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

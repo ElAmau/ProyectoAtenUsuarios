@@ -1,0 +1,25 @@
+<p></p>
+<div class="container">
+  <table class="table table-success table-striped">
+     <thead class="table-dark">
+       <tr>
+         <th scope="col">id_soluprob
+         <th>
+         <th scope="col">id_Acceso</th>
+         <th scope="col">Nombre_del_problema</th>
+         <th scope="col">Tipo_problema</th>
+         <th scope="col">Fecha</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr *ngFor="let i of recupera">
+         <td>{{i.id_soluprob}}</td>
+         <td></td>
+         <td>{{i.id_Acceso}}</td>
+         <td>{{i.Nombre_del_problema}}</td>
+         <td>{{i.Tipo_problema}}</td>
+         <td>{{i.Fecha}}</td>
+       </tr>
+    </tbody>
+  </table>
+</div>

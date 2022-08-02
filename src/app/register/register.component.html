@@ -1,0 +1,35 @@
+<div class="display-3 fst-italic text-center"><h1 class="larger" style="color: blue">Registrarse</h1>
+  </div>
+    <p class="text-center fs-4">Información Registro de Datos</p>
+    <p></p>
+<div class="container">
+  <table class="table table-success table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">id_regDatos<th>
+          <th scope="col">id_user</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">ApellidoPat</th>
+          <th scope="col">ApellidoMat</th>
+          <th scope="col">Correo</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Numero Telefono</th>
+          <th scope="col">Sexo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let reg of recupera">
+          <td>{{reg.id_regDatos}}</td>
+          <td></td>
+          <td>{{reg.id_user}}</td>
+          <td>{{reg.Nombre}}</td>
+          <td>{{reg.ApellPat}}</td>
+          <td>{{reg.ApellMat}}</td>
+          <td>{{reg.Correo}}</td>
+          <td>{{reg.Edad}}</td>
+          <td>{{reg.Numero_Tel}}</td>
+          <td>{{reg.Sexo}}</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>

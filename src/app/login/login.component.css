@@ -1,0 +1,24 @@
+.CentrarEsteTexto{
+    text-align: center;
+} 
+h1{
+    height: 50px;
+    color: blue;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:center;
+}
+h5{
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:center;
+}
